@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300A44CC1BEA61BD006C3A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A44CB1BEA61BD006C3A46 /* main.m */; };
+		300A44CF1BEA61BD006C3A46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A44CE1BEA61BD006C3A46 /* AppDelegate.m */; };
+		300A44D21BEA61BD006C3A46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A44D11BEA61BD006C3A46 /* ViewController.m */; };
+		300A44D51BEA61BD006C3A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300A44D31BEA61BD006C3A46 /* Main.storyboard */; };
+		300A44D71BEA61BD006C3A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300A44D61BEA61BD006C3A46 /* Assets.xcassets */; };
+		300A44DA1BEA61BD006C3A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300A44D81BEA61BD006C3A46 /* LaunchScreen.storyboard */; };
+		300A44E41BEA61FD006C3A46 /* RSSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A44E31BEA61FD006C3A46 /* RSSwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300A44C71BEA61BD006C3A46 /* RSSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300A44CB1BEA61BD006C3A46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		300A44CD1BEA61BD006C3A46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		300A44CE1BEA61BD006C3A46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		300A44D01BEA61BD006C3A46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		300A44D11BEA61BD006C3A46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		300A44D41BEA61BD006C3A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		300A44D61BEA61BD006C3A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300A44D91BEA61BD006C3A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		300A44DB1BEA61BD006C3A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300A44E21BEA61FD006C3A46 /* RSSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSwitch.h; sourceTree = "<group>"; };
+		300A44E31BEA61FD006C3A46 /* RSSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300A44C41BEA61BD006C3A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300A44BE1BEA61BD006C3A46 = {
+			isa = PBXGroup;
+			children = (
+				300A44C91BEA61BD006C3A46 /* RSSwitch */,
+				300A44C81BEA61BD006C3A46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		300A44C81BEA61BD006C3A46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300A44C71BEA61BD006C3A46 /* RSSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300A44C91BEA61BD006C3A46 /* RSSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				300A44E11BEA61FD006C3A46 /* source */,
+				300A44CD1BEA61BD006C3A46 /* AppDelegate.h */,
+				300A44CE1BEA61BD006C3A46 /* AppDelegate.m */,
+				300A44D01BEA61BD006C3A46 /* ViewController.h */,
+				300A44D11BEA61BD006C3A46 /* ViewController.m */,
+				300A44D31BEA61BD006C3A46 /* Main.storyboard */,
+				300A44D61BEA61BD006C3A46 /* Assets.xcassets */,
+				300A44D81BEA61BD006C3A46 /* LaunchScreen.storyboard */,
+				300A44DB1BEA61BD006C3A46 /* Info.plist */,
+				300A44CA1BEA61BD006C3A46 /* Supporting Files */,
+			);
+			path = RSSwitch;
+			sourceTree = "<group>";
+		};
+		300A44CA1BEA61BD006C3A46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				300A44CB1BEA61BD006C3A46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		300A44E11BEA61FD006C3A46 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				300A44E21BEA61FD006C3A46 /* RSSwitch.h */,
+				300A44E31BEA61FD006C3A46 /* RSSwitch.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		300A44C61BEA61BD006C3A46 /* RSSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300A44DE1BEA61BD006C3A46 /* Build configuration list for PBXNativeTarget "RSSwitch" */;
+			buildPhases = (
+				300A44C31BEA61BD006C3A46 /* Sources */,
+				300A44C41BEA61BD006C3A46 /* Frameworks */,
+				300A44C51BEA61BD006C3A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSwitch;
+			productName = RSSwitch;
+			productReference = 300A44C71BEA61BD006C3A46 /* RSSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300A44BF1BEA61BD006C3A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Roman Simenok";
+				TargetAttributes = {
+					300A44C61BEA61BD006C3A46 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 300A44C21BEA61BD006C3A46 /* Build configuration list for PBXProject "RSSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300A44BE1BEA61BD006C3A46;
+			productRefGroup = 300A44C81BEA61BD006C3A46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300A44C61BEA61BD006C3A46 /* RSSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300A44C51BEA61BD006C3A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300A44DA1BEA61BD006C3A46 /* LaunchScreen.storyboard in Resources */,
+				300A44D71BEA61BD006C3A46 /* Assets.xcassets in Resources */,
+				300A44D51BEA61BD006C3A46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300A44C31BEA61BD006C3A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300A44E41BEA61FD006C3A46 /* RSSwitch.m in Sources */,
+				300A44D21BEA61BD006C3A46 /* ViewController.m in Sources */,
+				300A44CF1BEA61BD006C3A46 /* AppDelegate.m in Sources */,
+				300A44CC1BEA61BD006C3A46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		300A44D31BEA61BD006C3A46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300A44D41BEA61BD006C3A46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		300A44D81BEA61BD006C3A46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300A44D91BEA61BD006C3A46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		300A44DC1BEA61BD006C3A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		300A44DD1BEA61BD006C3A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		300A44DF1BEA61BD006C3A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RSSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		300A44E01BEA61BD006C3A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RSSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300A44C21BEA61BD006C3A46 /* Build configuration list for PBXProject "RSSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300A44DC1BEA61BD006C3A46 /* Debug */,
+				300A44DD1BEA61BD006C3A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300A44DE1BEA61BD006C3A46 /* Build configuration list for PBXNativeTarget "RSSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300A44DF1BEA61BD006C3A46 /* Debug */,
+				300A44E01BEA61BD006C3A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 300A44BF1BEA61BD006C3A46 /* Project object */;
+}
