@@ -55,4 +55,10 @@
  */
 -(void)setOn:(BOOL)On animated:(BOOL)animated;
 
+/** 
+ Removes handle border and set image on it 
+ @param hamdleImage handle image
+ */
+-(void)setHandleImage:(UIImage *)handleImage;
+
 @end

@@ -135,6 +135,11 @@
 
 #pragma mark - Gestures
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    // save previous value to prevent sending actions when value wasn't changed.
+    prevState = self.isOn;
+}
+
 -(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     bMoved = YES;
     CGPoint point = [[[event allTouches] anyObject] locationInView:self];
@@ -151,6 +156,10 @@
         [self setOn:(self.onState.frame.origin.x+self.onState.frame.size.width > self.bounds.size.width/2) animated:YES];
     }else{
         [self setOn:!self.isOn animated:YES];
+    }
+    
+    if (prevState == self.isOn) {
+        return;
     }
     
     [self sendActionsForControlEvents:UIControlEventTouchUpInside|UIControlEventTouchUpOutside];
